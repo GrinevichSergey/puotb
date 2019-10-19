@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B3310CFA-1545-45DF-BB4D-733DA5BC57F7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D014F13A-F196-401E-8ABC-8E83727F3A77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatRuntime/view/UserCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "messages"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D014F13A-F196-401E-8ABC-8E83727F3A77 - 392b34b956ccf6c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PUOTB.UserCell.messages.modify : Swift.Optional&lt;PUOTB.Message&gt;"
+                  moduleName = "PUOTB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/g_serega/Documents/MyAppXcode/InfoPUOTB/puotb/ChatRuntime/view/UserCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "D014F13A-F196-401E-8ABC-8E83727F3A77 - cf35ada1d8ed3625"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PUOTB.UserCell.messages.modify : Swift.Optional&lt;PUOTB.Message&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "PUOTB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/g_serega/Documents/MyAppXcode/InfoPUOTB/puotb/ChatRuntime/view/UserCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

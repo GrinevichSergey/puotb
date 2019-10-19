@@ -1,0 +1,6 @@
+framework module Pods_puotb {
+  umbrella header "Pods-puotb-umbrella.h"
+
+  export *
+  module * { export * }
+}

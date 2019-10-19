@@ -473,8 +473,8 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
             
             let modifiedSize = (width: collectionView!.frame.width, height: headerHeight)
             retval = (item, section, sectionInset.left, yCellOffset , modifiedSize.width - (sectionInset.left + sectionInset.right), modifiedSize.height)
-        @unknown default: break
-            
+        @unknown default:
+            break
         }
         if retval?.4 == 0, retval?.5 == 0 {
             return nil
@@ -598,6 +598,8 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
         case .vertical:
             let headerSizeOfSection = !headerCache.isEmpty ? headerCache[section]!.5 : 0
             return cellCache[section]![0].5 * CGFloat(numberOfRowsForMonth(section)) + headerSizeOfSection
+        @unknown default:
+            return 0
         }
     }
     
@@ -659,6 +661,8 @@ class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutProtoc
             case .supplementaryView:
                 headers.append(item.indexPath)
             case .decorationView:
+                break
+            @unknown default:
                 break
             }
         }
